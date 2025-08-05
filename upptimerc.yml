@@ -1,0 +1,20 @@
+owner: roadsanchez # GitHub username
+repo: OmniRepo # GitHub repository name
+user-agent: koj-co
+sites: # List of endpoints to track
+  - name: OmniHive
+    url: https://omnihive.fr
+  - name: OmniVtc
+    url: https://omnivtc.omnihive.fr
+  - name: RungisLiner
+    url: https://rungisliner-vtc.site
+  - name: OmniVtc
+    url: https://kroneliner.rungisliner-vtc.site
+    type: globalping # Use the Globalping platform to run the check
+    location: World # Location to run the check from. Default is "World"
+assignees: # Users to assign downtime issues (optional)
+  - AnandChowdhary
+status-website: # Status website (optional)
+  cname: uptime.omnihive.fr # Custom domain CNAME
+  baseUrl: https://roadsanchez.github.io/OmniTime
+  name: OmniTime # Status website title
